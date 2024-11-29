@@ -70,112 +70,18 @@ const CustomProject = () => {
 
         </h2>
         <p className="text-sm xl:text-base leading-7 text-center text-default-700 ">
-          Since 2017, we've been helping developers, entrepreneurs, startups, and government agencies.
-          Count on CodeShaper to provide a tailored transformation that fits your business goals perfectly.
+          Since 2024, we've been helping business, startups, and government agencies.
         </p>
 
         <div className="flex justify-center gap-8 mb-10 xl:mb-[72px] mt-7 xl:mt-9">
           <Button variant="outline" asChild>
-            <Link href="https://themeforest.net/user/codeshaperbd" target="_blank"> Take a Tour</Link>
+            <Link href="/about-us" target="_blank"> Take a Tour</Link>
           </Button>
           <Button asChild>
-            <Link href="https://codeshaper.net/contact-us">Contact Us</Link>
+            <Link href="/contact-us">Contact Us</Link>
           </Button>
         </div>
       </div>
-      <div className="space-y-9">
-        <Swiper
-          spaceBetween={8}
-          slidesPerView={2}
-          centeredSlides={true}
-          speed={6000}
-          autoplay={{
-            disableOnInteraction: true,
-            pauseOnMouseEnter: true,
-            delay: 0,
-          }}
-          loop={true}
-          modules={[Autoplay]}
-          grabCursor={true}
-          breakpoints={{
-            768: {
-              slidesPerView: 3,
-              spaceBetween: 12
-            },
-            1080: {
-              slidesPerView: 3,
-              spaceBetween: 16
-            },
-            1400: {
-              slidesPerView: 4,
-              spaceBetween: 36
-            },
-          }}
-        >
-          {data.map((item, index) => (
-            <SwiperSlide key={`products-${index}`}>
-              <div className="w-full group relative before:absolute before:top-0 before:left-0 before:w-full before:h-full 
-              hover:before:bg-default-900/60 dark:hover:before:bg-default-50/60">
-                <Image src={item.image} alt={item.name} className="w-full h-full object-cover rounded-md" priority={true} />
-                <Button asChild
-                  className="absolute right-6 bottom-5 bg-background dark:bg-primary dark:text-primary-foreground dark:border-primary  opacity-0 invisible group-hover:opacity-100 group-hover:visible "
-                  variant="outline"
-                >
-                  <Link target="_blank" href={item.href}> View Product </Link>
-                </Button>
-              </div>
-            </SwiperSlide>
-          ))
-          }
-        </Swiper>
-        <Swiper
-          spaceBetween={8}
-          slidesPerView={2}
-          centeredSlides={true}
-          speed={6000}
-          autoplay={{
-            disableOnInteraction: true,
-            pauseOnMouseEnter: true,
-            delay: 0,
-            reverseDirection: true,
-          }}
-          loop={true}
-          modules={[Autoplay]}
-          grabCursor={true}
-          breakpoints={{
-            768: {
-              slidesPerView: 3,
-              spaceBetween: 12
-            },
-            1080: {
-              slidesPerView: 3,
-              spaceBetween: 16
-            },
-            1400: {
-              slidesPerView: 4,
-              spaceBetween: 36
-            },
-          }}
-        >
-          {data.map((item, index) => (
-            <SwiperSlide key={`products-reverse-${index}`}>
-              <div
-                className="w-full group relative before:absolute before:top-0 before:left-0 before:w-full before:h-full hover:before:bg-default-900/60 dark:hover:before:bg-default-50/60">
-                <Image src={item.image} alt={item.name} className="w-full h-full object-cover rounded-md" priority={true} />
-                <Button asChild
-                  className="absolute right-6 bottom-5 bg-background dark:bg-primary dark:text-primary-foreground dark:border-primary  opacity-0 invisible group-hover:opacity-100 group-hover:visible "
-                  variant="outline"
-                >
-                  <Link target="_blank" href={item.href}> View Product </Link>
-                </Button>
-
-              </div>
-            </SwiperSlide>
-          ))
-          }
-        </Swiper>
-      </div>
-
     </section>
   );
 };

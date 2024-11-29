@@ -16,31 +16,31 @@ const Footer = () => {
   const socials = [
     {
       icon: facebook,
-      href: "https://www.facebook.com/Codeshaperbd/"
+      href: "/"
     },
     {
       icon: github,
-      href: "https://github.com/Codeshaper-bd"
+      href: "/"
     },
     {
       icon: linkedin,
-      href: "https://www.linkedin.com/company/codeshaper/"
+      href: "/"
     },
     {
       icon: youtube,
-      href: "https://www.youtube.com/@codeshaper4181"
+      href: "/"
     },
     {
       icon: twitter,
-      href: "https://twitter.com/codeshaperbd"
+      href: "/"
     },
     {
       icon: dribble,
-      href: "https://dribbble.com/codeshaperbd"
+      href: "/"
     },
     {
       icon: behance,
-      href: "https://www.behance.net/codeshaper"
+      href: "/"
     }
   ]
   return (
@@ -69,7 +69,7 @@ const Footer = () => {
               <Link href="/docs/introduction">View Documentation</Link>
             </Button>
             <Button asChild variant="outline" className="rounded text-primary-foreground border-primary">
-              <Link href="https://1.envato.market/dashtail-regular" target="__blank">Buy Now</Link>
+              <Link href="/dashboard" target="__blank">Buy Now</Link>
             </Button>
           </div>
           <div className="mt-8 flex items-center justify-center flex-wrap gap-5">
@@ -90,9 +90,6 @@ const Footer = () => {
       <div className="relative bg-default-900 dark:bg-default-50 py-6">
         <div className="container flex flex-col text-center md:text-start md:flex-row gap-2">
           <p className="text-primary-foreground flex-1 text-base xl:text-lg font-medium">COPYRIGHT &copy; 2024  APPLICATION All rights Reserved</p>
-          <p className="text-primary-foreground flex-none text-base font-medium">
-            Hand-crafted & Made by {" "}
-            <Link href="https://codeshaper.net" target="__blank" className="text-primary hover:underline">Codeshaper</Link></p>
         </div>
       </div>
     </footer>

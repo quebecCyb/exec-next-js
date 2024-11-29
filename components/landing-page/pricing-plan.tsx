@@ -14,7 +14,7 @@ const PricingPlan = () => {
             Pricing  <span className="text-primary">Plan</span>
           </h2>
           <p className="text-base xl:leading-7 text-center text-default-700 ">
-            DashTail stands as a prudent investment, safeguarding you against thousands in potential expenses.
+            Application stands as a prudent investment, safeguarding you against thousands in potential expenses.
             With every update, amplify its value even further.
           </p>
         </div>
@@ -26,7 +26,7 @@ const PricingPlan = () => {
               <div className="flex-none">
                 <div className="flex mb-3">
                   <h4 className="flex-1 text-xl xl:text-2xl  font-semibold text-default-900">
-                    Regular License
+                    Regular Plan
                   </h4>
                   <span className="flex-none text-xl xl:text-2xl  font-semibold text-primary">
                     $<span className="underline">9</span>
@@ -51,132 +51,13 @@ const PricingPlan = () => {
                       className="w-4 h-4 text-success"
                     />
                     <span className="text-sm xl:text-base  text-default-900">
-                      Quality assurance by Envato
-                    </span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <Icon
-                      icon="heroicons:check-16-solid"
-                      className="w-4 h-4 text-success"
-                    />
-                    <span className="text-sm xl:text-base  text-default-900">
-                      Free lifetime updates.
-                    </span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <Icon
-                      icon="heroicons:check-16-solid"
-                      className="w-4 h-4 text-success"
-                    />
-                    <span className="text-sm xl:text-base  text-default-900">
-                      Support for six months.
-                    </span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <Icon
-                      icon="heroicons:x-mark-16-solid"
-                      className="w-4 h-4 text-destructive"
-                    />
-                    <span className="text-sm xl:text-base text-default-900">
-                      Customization guidance and consultancy.
-                    </span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <Icon
-                      icon="heroicons:x-mark-16-solid"
-                      className="w-4 h-4 text-destructive"
-                    />
-                    <span className="text-sm xl:text-base  text-default-900">
-                      Remote Support, Skype support.
-                    </span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <Icon
-                      icon="heroicons:x-mark-16-solid"
-                      className="w-4 h-4 text-destructive"
-                    />
-                    <span className="text-sm xl:text-base  text-default-900">
-                      Anydesk/Teamviewer support.
-                    </span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <Icon
-                      icon="heroicons:x-mark-16-solid"
-                      className="w-4 h-4 text-destructive"
-                    />
-                    <span className="text-sm xl:text-base  text-default-900">
-                      Free installation.
+                      Quality assurance
                     </span>
                   </li>
                 </ul>
               </div>
-              <ul className="space-y-3">
-                <li className="flex items-center gap-3">
-                  <Icon
-                    icon="heroicons:check-16-solid"
-                    className="w-4 h-4 text-success"
-                  />
-                  <span className="text-sm xl:text-base  text-default-900">
-                    Quality assurance by Envato
-                  </span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon
-                    icon="heroicons:check-16-solid"
-                    className="w-4 h-4 text-success"
-                  />
-                  <span className="text-sm xl:text-base  text-default-900">
-                    Free lifetime updates.
-                  </span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon
-                    icon="heroicons:check-16-solid"
-                    className="w-4 h-4 text-success"
-                  />
-                  <span className="text-sm xl:text-base  text-default-900">
-                    Support for six months.
-                  </span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon
-                    icon="heroicons:x-mark-16-solid"
-                    className="w-4 h-4 text-destructive"
-                  />
-                  <span className="text-sm xl:text-base text-default-900">
-                    Customization guidance and consultancy.
-                  </span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon
-                    icon="heroicons:x-mark-16-solid"
-                    className="w-4 h-4 text-destructive"
-                  />
-                  <span className="text-sm xl:text-base  text-default-900">
-                    Remote Support, Skype support.
-                  </span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon
-                    icon="heroicons:x-mark-16-solid"
-                    className="w-4 h-4 text-destructive"
-                  />
-                  <span className="text-sm xl:text-base  text-default-900">
-                    Anydesk/Teamviewer support.
-                  </span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon
-                    icon="heroicons:x-mark-16-solid"
-                    className="w-4 h-4 text-destructive"
-                  />
-                  <span className="text-sm xl:text-base  text-default-900">
-                    Free installation.
-                  </span>
-                </li>
-              </ul>
               <Button asChild>
-                <Link href="https://1.envato.market/dashtail-regular" target="__blank" className="mt-8 xl:mt-12 w-full">
+                <Link href="#" target="__blank" className="mt-8 xl:mt-12 w-full">
                   Buy Now
                 </Link>
               </Button>
@@ -191,7 +72,7 @@ const PricingPlan = () => {
               <div className="flex-none">
                 <div className="flex mb-3">
                   <h4 className="flex-1 text-xl xl:text-2xl  font-semibold text-default-900">
-                    Extend License
+                    Extend Plan
                   </h4>
                   <span className="flex-none text-xl xl:text-2xl  font-semibold text-primary">
                     $<span className="underline">300</span>
@@ -220,129 +101,10 @@ const PricingPlan = () => {
                       Quality assurance by Envato
                     </span>
                   </li>
-                  <li className="flex items-center gap-3">
-                    <Icon
-                      icon="heroicons:check-16-solid"
-                      className="w-4 h-4 text-success"
-                    />
-                    <span className="text-sm xl:text-base  text-default-900">
-                      Free lifetime updates.
-                    </span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <Icon
-                      icon="heroicons:check-16-solid"
-                      className="w-4 h-4 text-success"
-                    />
-                    <span className="text-sm xl:text-base  text-default-900">
-                      Support for six months.
-                    </span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <Icon
-                      icon="heroicons:check-16-solid"
-                      className="w-4 h-4 text-success"
-                    />
-                    <span className="text-sm xl:text-base  text-default-900">
-                      Customization guidance and consultancy.
-                    </span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <Icon
-                      icon="heroicons:check-16-solid"
-                      className="w-4 h-4 text-success"
-                    />
-                    <span className="text-sm xl:text-base  text-default-900">
-                      Remote Support, Skype support.
-                    </span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <Icon
-                      icon="heroicons:check-16-solid"
-                      className="w-4 h-4 text-success"
-                    />
-                    <span className="text-sm xl:text-base  text-default-900">
-                      Anydesk/Teamviewer support.
-                    </span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <Icon
-                      icon="heroicons:check-16-solid"
-                      className="w-4 h-4 text-success"
-                    />
-                    <span className="text-sm xl:text-base text-default-900">
-                      Free installation.
-                    </span>
-                  </li>
                 </ul>
               </div>
-              <ul className="space-y-3">
-                <li className="flex items-center gap-3">
-                  <Icon
-                    icon="heroicons:check-16-solid"
-                    className="w-4 h-4 text-success"
-                  />
-                  <span className="text-sm xl:text-base  text-default-900">
-                    Quality assurance by Envato
-                  </span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon
-                    icon="heroicons:check-16-solid"
-                    className="w-4 h-4 text-success"
-                  />
-                  <span className="text-sm xl:text-base  text-default-900">
-                    Free lifetime updates.
-                  </span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon
-                    icon="heroicons:check-16-solid"
-                    className="w-4 h-4 text-success"
-                  />
-                  <span className="text-sm xl:text-base  text-default-900">
-                    Support for six months.
-                  </span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon
-                    icon="heroicons:check-16-solid"
-                    className="w-4 h-4 text-success"
-                  />
-                  <span className="text-sm xl:text-base  text-default-900">
-                    Customization guidance and consultancy.
-                  </span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon
-                    icon="heroicons:check-16-solid"
-                    className="w-4 h-4 text-success"
-                  />
-                  <span className="text-sm xl:text-base  text-default-900">
-                    Remote Support, Skype support.
-                  </span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon
-                    icon="heroicons:check-16-solid"
-                    className="w-4 h-4 text-success"
-                  />
-                  <span className="text-sm xl:text-base  text-default-900">
-                    Anydesk/Teamviewer support.
-                  </span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon
-                    icon="heroicons:check-16-solid"
-                    className="w-4 h-4 text-success"
-                  />
-                  <span className="text-sm xl:text-base text-default-900">
-                    Free installation.
-                  </span>
-                </li>
-              </ul>
               <Button asChild>
-                <Link href="https://1.envato.market/dashtail-extended" target="__blank" className="mt-8 xl:mt-12 w-full">
+                <Link href="#" target="__blank" className="mt-8 xl:mt-12 w-full">
                   Buy Now
                 </Link>
               </Button>
@@ -353,12 +115,12 @@ const PricingPlan = () => {
             <div className="bg-default-100 rounded-xl py-8 px-6 flex flex-col">
               <div className="flex-none">
                 <h4 className="text-xl xl:text-2xl font-semibold text-primary mb-3">
-                  Custom License
+                  Custom Plan
                 </h4>
                 <p className="text-sm xl:text-base  text-default-600">
-                  Should your business necessitate a unique licensing
+                  Should your business necessitate a unique plan
                   arrangement, please
-                  <Link href="https://codeshaper.net/" className="text-primary mx-1 hover:underline">
+                  <Link href="/" className="text-primary mx-1 hover:underline">
                     Get In Touch
                   </Link>
                   to explore customized solutions.
@@ -368,7 +130,7 @@ const PricingPlan = () => {
                 <Image src={CardImage} alt="pricing card image" priority={true} />
               </div>
               <Button asChild>
-                <Link href="https://codeshaper.net/contact-us" target="__blank" className="mt-8 xl:mt-12 w-full">
+                <Link href="/contact-us" target="__blank" className="mt-8 xl:mt-12 w-full">
                   Contact us
                 </Link>
               </Button>

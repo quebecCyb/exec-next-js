@@ -25,14 +25,14 @@ const LandingPageView = () => {
     <div className="bg-background">
       <Header />
       <Hero />
-      <Stats />
-      <AllComponents />
-      <ShowCase />
-      <ColorSchemas />
-      <ProjectTools />
-      <FigmaKit />
-      <AboutUs />
-      <AboutDashtail />
+      {/*<Stats />*/}
+      {/*<AllComponents />*/}
+      {/*<ShowCase />*/}
+      {/*<ColorSchemas />*/}
+      {/*<ProjectTools />*/}
+      {/*<FigmaKit />*/}
+      {/*<AboutUs />*/}
+      {/*<AboutDashtail />*/}
       <Faq />
       <PricingPlan />
       <CustomProject />

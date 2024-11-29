@@ -31,19 +31,19 @@ const Header = () => {
             <Link href="/" className="flex items-center gap-1">
               <SiteLogo className="h-8 w-8  text-primary" />
               <span className="text-primary-500 font-medium text-xl">
-                DashTail
+                Application
               </span>
             </Link>
 
             <div className="flex items-center gap-6">
               <ThemeButton />
               <Button asChild size="sm">
-                <Link href="https://1.envato.market/dashtail-regular" target="__blank" className="text-sm font-semibold">
+                <Link href="/dashboard" target="__blank" className="text-sm font-semibold">
                   <Icon
                     icon="heroicons:shopping-cart"
                     className="w-4 h-4 mr-1.5"
                   />
-                  Buy Now
+                  Try now
                 </Link>
               </Button>
               <button type="button">
@@ -111,13 +111,13 @@ const Header = () => {
       <nav className="container flex justify-between">
         <Link target="_blank" href="/dashboard" className="flex items-center gap-1">
           <SiteLogo className="h-8 w-8  text-primary" />
-          <span className="text-primary-500 font-medium text-xl">DashTail</span>
+          <span className="text-primary-500 font-medium text-xl">Application</span>
         </Link>
         <NavMenu />
         <div className="flex items-center gap-6">
           <ThemeButton />
           <Button asChild size="sm">
-            <Link href="https://1.envato.market/dashtail-regular" target="__blank" className="text-sm font-semibold">
+            <Link href="/dashboard" target="__blank" className="text-sm font-semibold">
               <Icon icon="heroicons:shopping-cart" className="w-4 h-4 me-1.5" />
               Buy Now
             </Link>
