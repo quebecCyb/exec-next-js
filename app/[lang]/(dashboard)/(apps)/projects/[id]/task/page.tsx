@@ -6,7 +6,10 @@ import {
   getSubtasks,
   getComments,
 } from "@/config/project-config";
-const task = async ({ params }: { params: { id: string } }) => {
+const task = async ({ params }: { params: Promise<{ id: string }> }) => {
+
+  await params;
+
   const boards = await getBoards();
   const tasks = await getTasks();
   const subTasks = await getSubtasks();
